@@ -40,6 +40,7 @@
 
     function process(){
       document.getElementById('target').textContent = 'すごくまじめです';
+      document.getElementById('trigger').classList.add('changed');
     }
 
     document.getElementById('trigger').addEventListener('click',process);
